@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseScriptingTool doc_version="0">
+  <Name>Interpolate Beyond</Name>
+  <Id>rfgd.garbanzo.InterpolateBeyond</Id>
+  <Version>1.4</Version>
+  <ApiVersion>6.1</ApiVersion>
+  <Author>GARBANZO</Author>
+  <AutoUpgraded>false</AutoUpgraded>
+  <Category>In Progress</Category>
+  <Description>Hotkey interpolates between previous and next point found. If only one point is found the interpolation extends to the beginning or end of track.</Description>
+  <Homepage>http://tools.renoise.com</Homepage>
+  <Platform/>
+  <Icon/>
+</RenoiseScriptingTool>

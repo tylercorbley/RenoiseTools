@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseScriptingTool doc_version="0">
+  <Name>Parameter Lock</Name>
+  <Id>rfgd.garbanzo.ParameterLock</Id>
+  <Version>1.5</Version>
+  <ApiVersion>6.1</ApiVersion>
+  <Author>GARBANZO</Author>
+  <AutoUpgraded>false</AutoUpgraded>
+  <Category>In Progress</Category>
+  <Description>Type in some parameter you would like to lock into an effect column, this script will then "lock" your original settings before and after your modulation, so your original sound doesn't change, similar to Elektron.</Description>
+  <Homepage>http://tools.renoise.com</Homepage>
+  <Platform/>
+  <Icon/>
+</RenoiseScriptingTool>
