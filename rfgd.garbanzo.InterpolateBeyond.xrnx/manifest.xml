@@ -2,7 +2,7 @@
 <RenoiseScriptingTool doc_version="0">
   <Name>Interpolate Beyond</Name>
   <Id>rfgd.garbanzo.InterpolateBeyond</Id>
-  <Version>1.4</Version>
+  <Version>1.75</Version>
   <ApiVersion>6.1</ApiVersion>
   <Author>GARBANZO</Author>
   <AutoUpgraded>false</AutoUpgraded>

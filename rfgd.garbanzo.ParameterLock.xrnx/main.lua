@@ -1,13 +1,3 @@
---[[============================================================================
-main.lua
-============================================================================]]--
-
--- Placeholder for the dialog
-local dialog = nil
-
--- Placeholder to expose the ViewBuilder outside the show_dialog() function
-local vb = nil
-
 -- Reload the script whenever this file is saved. 
 -- Additionally, execute the attached function.
 _AUTO_RELOAD_DEBUG = function()
@@ -23,9 +13,7 @@ class "RenoiseScriptingTool" (renoise.Document.DocumentNode)
   end
 
 local manifest = RenoiseScriptingTool()
-local ok,err = manifest:load_from("manifest.xml")
 local tool_name = manifest:property("Name").value
-local tool_id = manifest:property("Id").value
 
 --------------------------------------------------------------------------------
 -- Main functions
@@ -165,7 +153,6 @@ local function ParameterLockLong()
   local effect = patTrack:line(lineDown).effect_columns[columnID]
   local patternLength = pattern.number_of_lines
   local parameter = renoise.song().selected_parameter 
-  
 
 if parameterOld ~= nil then
     if lineUp >= 1 then
